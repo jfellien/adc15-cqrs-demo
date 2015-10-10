@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.40629.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cqrs.Demo", "Cqrs.Demo\Cqrs.Demo.csproj", "{1BD3DF6A-D87D-40AA-941B-EA7ACB74492B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "_project", "_project", "{F8BA7EEF-E253-4BE5-B231-67758982F68A}"
+	ProjectSection(SolutionItems) = preProject
+		paket.dependencies = paket.dependencies
+		ReadMe.md = ReadMe.md
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1BD3DF6A-D87D-40AA-941B-EA7ACB74492B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1BD3DF6A-D87D-40AA-941B-EA7ACB74492B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1BD3DF6A-D87D-40AA-941B-EA7ACB74492B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1BD3DF6A-D87D-40AA-941B-EA7ACB74492B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
