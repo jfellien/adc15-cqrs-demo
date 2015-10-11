@@ -45,6 +45,12 @@ namespace Cqrs.Demo
             WriteMessage();
         }
 
+        public void AsHappyMessage()
+        {
+            Console.ForegroundColor = ConsoleColor.Green;
+            WriteMessage();
+        }
+
         private void WriteMessage()
         {
             if (_withTimeStamp)

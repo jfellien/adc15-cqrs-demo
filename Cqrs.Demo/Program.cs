@@ -8,9 +8,9 @@ namespace Cqrs.Demo
     {
         static void Main(string[] args)
         {
-            ConsoleLogger.Log("Lets start to do CQRS").AsInfo();
+            ConsoleLogger.Log("Lets start to do CQRS").AsHappyMessage();
             
-            ConsoleLogger.Log("Hit [ENTER] ... ").AsInfo();
+            ConsoleLogger.Log("Hit [ENTER] ... ").AsWarning();
             Console.ReadLine();
         }
     }
