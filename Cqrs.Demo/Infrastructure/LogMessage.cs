@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Cqrs.Demo
+namespace Cqrs.Demo.Infrastructure
 {
     public class LogMessage
     {

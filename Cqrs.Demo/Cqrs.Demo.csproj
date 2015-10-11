@@ -41,8 +41,23 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="ConsoleLogger.cs" />
-    <Compile Include="LogMessage.cs" />
+    <Compile Include="Contracts\Adresse.cs" />
+    <Compile Include="Contracts\Einzug.cs" />
+    <Compile Include="Contracts\EinzugErfolgt.cs" />
+    <Compile Include="Contracts\EinzugNichtMöglichMietvertragIstNichtVorbereitet.cs" />
+    <Compile Include="Contracts\InstanzWurdeErzeugt.cs" />
+    <Compile Include="Contracts\MietvertragVorbereiten.cs" />
+    <Compile Include="Contracts\MietvertragWurdeVorbereitet.cs" />
+    <Compile Include="Contracts\WohneinheitWurdeReserviert.cs" />
+    <Compile Include="Domain\Hausverwaltung.cs" />
+    <Compile Include="Domain\Mietvertrag.cs" />
+    <Compile Include="Infrastructure\ConsoleLogger.cs" />
+    <Compile Include="Infrastructure\LogMessage.cs" />
+    <Compile Include="Infrastructure\MietvertragEventHandler.cs" />
+    <Compile Include="Infrastructure\MietvertragRow.cs" />
+    <Compile Include="Infrastructure\MietvertragTable.cs" />
+    <Compile Include="Infrastructure\ReservierungRow.cs" />
+    <Compile Include="Infrastructure\ReservierungTable.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
