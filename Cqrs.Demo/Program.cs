@@ -10,6 +10,8 @@ namespace Cqrs.Demo
         {
             ConsoleLogger.Log("Lets start to do CQRS").AsHappyMessage();
             
+            
+
             ConsoleLogger.Log("Hit [ENTER] ... ").AsWarning();
             Console.ReadLine();
         }
